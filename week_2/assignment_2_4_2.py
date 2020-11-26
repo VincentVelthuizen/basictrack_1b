@@ -3,7 +3,7 @@ distance = float(input("What is the distance you need to travel (in km)? "))
 walking_speed = 5       # in km/h
 walking_get_going = 1   # in minutes
 walking_parking = 0     # in minutes
-walking_total_time = walking_get_going + 60 * (distance / walking_speed) + walking_parking
+walking_total_time = walking_get_going + 60 * (distance / walking_speed) + walking_parking  # minutes
 
 biking_speed = 20
 biking_get_going = 5
