@@ -37,7 +37,7 @@ for square in range(1, 5):
     for _ in range(4):
         for _ in range(2 ** square):
             jianju.forward(element_length)
-            square_curl(jianju, element_length - 1, 1.02)
+            square_curl(jianju, element_length - 1, 4/3)
         jianju.left(90)
     bottom_left(jianju, element_length * 2 ** (square - 1))
 
