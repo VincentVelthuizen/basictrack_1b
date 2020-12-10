@@ -2,12 +2,12 @@ import turtle
 
 
 def bottom_left(monk: turtle.Turtle, size):
-    jianju.penup()
-    jianju.backward(size)
-    jianju.right(90)
-    jianju.forward(size)
-    jianju.left(90)
-    jianju.pendown()
+    monk.penup()
+    monk.backward(size)
+    monk.right(90)
+    monk.forward(size)
+    monk.left(90)
+    monk.pendown()
 
 
 def square_curl(monk: turtle.Turtle, size, direction=1, depth=8):
