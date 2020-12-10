@@ -1,10 +1,12 @@
-# get the book from http://www.gutenberg.org/files/11/11-0.txt saved here as alice.txt
+import os
 import urllib.request
 
 # retrieve the book
-url = "http://www.gutenberg.org/files/11/11-0.txt"
 file_name = "alice.txt"
-urllib.request.urlretrieve(url, file_name)
+if not os.path.isfile(file_name):
+    # if the file does not exist yet, retrieve it
+    url = "http://www.gutenberg.org/files/11/11-0.txt"
+    urllib.request.urlretrieve(url, file_name)
 
 # read the book
 with open(file_name) as alice_book:
