@@ -25,8 +25,13 @@ def square_curl(monk: turtle.Turtle, size, direction=1, depth=8):
     monk.pendown()
 
 
+def make_window():
+    window = turtle.Screen()
+    return window
+
+
 jianju = turtle.Turtle()
-screen = turtle.Screen()
+screen = make_window()
 
 jianju.speed(0)
 
