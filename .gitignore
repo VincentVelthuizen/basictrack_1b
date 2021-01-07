@@ -1,5 +1,6 @@
 # Typically txt files are generate (and thus do not need to be under version control
 *.txt
+*.png
 
 # Created by .ignore support plugin (hsz.mobi)
 ### JetBrains template
@@ -258,4 +259,3 @@ Temporary Items
 pyvenv.cfg
 .venv
 pip-selfcheck.json
-
